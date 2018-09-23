@@ -7,18 +7,18 @@
 # Inherit from sdm845-common
 -include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/dipper
+DEVICE_PATH := device/xiaomi/beryllium
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := dipper
+TARGET_OTA_ASSERT_DEVICE := beryllium
 
 # Kernel
-TARGET_KERNEL_CONFIG := dipper_defconfig
+TARGET_KERNEL_CONFIG := beryllium_defconfig
 
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # Inherit from the proprietary version
--include vendor/xiaomi/dipper/BoardConfigVendor.mk
+-include vendor/xiaomi/beryllium/BoardConfigVendor.mk
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
