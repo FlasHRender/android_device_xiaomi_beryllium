@@ -12,9 +12,9 @@ $(call inherit-product, vendor/cardinal/common.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cardinal_beryllium
 PRODUCT_DEVICE := beryllium
-PRODUCT_BRAND := POCO
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
-PRODUCT_MANUFACTURER := POCO
+PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := "Xiaomi/beryllium/beryllium:8.1.0/OPM1.171019.011/V9.6.18.0.OEJMIFD:user/release-keys"
 
@@ -22,5 +22,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="beryllium-user 8.1.0 OPM1.171019.011 V9.6.18.0.OEJMIFD release-keys" \
     PRODUCT_NAME="beryllium" \
     TARGET_DEVICE="beryllium"
-	
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

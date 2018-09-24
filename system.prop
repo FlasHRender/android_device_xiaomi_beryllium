@@ -1,7 +1,6 @@
 # System property for cabl
 ro.qualcomm.cabl=0
-# prop for amoled panel
-ro.display.type=oled
+
 persist.sys.disable_rescue=true
 # System property for AD
 ro.qcom.ad=1
