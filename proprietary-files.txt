@@ -43,7 +43,6 @@ lib/libdpmtcm.so
 etc/gps.conf
 etc/gps_debug.conf
 etc/gps_diag.cfg
-xbin/gpst
 lib/libbcinfo.so
 lib64/libbcinfo.so
 lib64/libbcc.so
@@ -102,8 +101,6 @@ lib/libradio_metadata.so
 etc/cdma_call_conf.xml
 etc/apns-conf.xml
 etc/miui-spn-conf.xml
-etc/nqnfcee_access.xml
-etc/nqnfcse_access.xml
 etc/sdm_ys_32p_120_21_5_perturb50.bin
 etc/spn-conf.xml
 etc/wfdconfig.xml
@@ -113,11 +110,9 @@ etc/wfdconfigsink.xml
 
 
 etc/permissions/LteDirectDiscovery.xml
-etc/permissions/RemoteSimlock.xml 
-etc/permissions/UimService.xml 
-etc/permissions/btmultisim.xml 
-etc/permissions/com.gsma.services.nfc.xml
-etc/permissions/com.nxp.nfc.nq.xml
+etc/permissions/RemoteSimlock.xml
+etc/permissions/UimService.xml
+etc/permissions/btmultisim.xml
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 etc/permissions/com.qualcomm.qti.libesewrapper.xml
 etc/permissions/embms.xml
@@ -214,9 +209,7 @@ etc/sensors/proto/sns_timer.proto
 etc/sensors/proto/sns_ultra_violet.proto
 
 
-bin/qvrservice
-lib/vendor.xiaomi.hardware.tpdbg@1.0.so
-lib64/vendor.xiaomi.hardware.tpdbg@1.0.so
+bin/qvrservices
 
 framework/com.qti.snapdragon.sdk.display.jar
 #framework/com.gsma.services.nfc.jar
@@ -229,9 +222,6 @@ framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar
 
 lib/libvsim.so
 lib64/libvsim_auth.so
-lib64/libnqnfc_nci_jni.so
-lib64/libnqp61-jcop-kit.so
-lib64/libnqnfc-nci.so
 lib/libsecurity_device_credential_sdk.so
 lib64/libsecurity_device_credential_sdk.so
 lib/vendor.xiaomi.hardware.mtdservice@1.0.so
@@ -255,8 +245,7 @@ lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so
 lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so
 lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
 lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
-lib64/vendor.nxp.hardware.nfc@1.0.so
-etc/device_features/dipper.xml
+etc/device_features/beryllium.xml
 
 
 lib/com.qualcomm.qti.bluetooth_audio@1.0.so
@@ -284,7 +273,6 @@ lib/libOpenCL_system.so
 lib/libqdMetaData.system.so
 lib/libqct_resampler.so
 lib/libadsprpc_system.so
-lib/libqvr_adsp_driver_stub.so
 lib/libqvrservice.so
 lib/libqti-util_system.so
 lib/libqti-at.so
@@ -300,7 +288,6 @@ lib/rfsa/adsp/libapps_mem_heap.so
 lib/rfsa/adsp/libdspCV_skel.so
 lib/rfsa/adsp/libfastcvadsp.so
 lib/rfsa/adsp/libfastcvdsp_skel.so
-lib/rfsa/adsp/libqvr_adsp_driver_skel.so
 lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 lib/rfsa/adsp/libscveT2T_skel.so
 
@@ -363,8 +350,7 @@ lib/libjni_ubifocus.so
 lib/libmorpho_group_portrait.so
 lib/libmorpho_groupshot.so
 lib/libmorpho_memory_allocator.so
-lib/libmorpho_panorama.so
-lib/libmorpho_panorama_gp.so
+lib/libmorpho_panorama_gp3.so
 lib/libmp3lame.so
 lib/liboptizoom.so
 lib/libscveBlobDescriptor.so
@@ -417,8 +403,7 @@ lib64/libjni_ubifocus.so
 lib64/libmorpho_group_portrait.so
 lib64/libmorpho_groupshot.so
 lib64/libmorpho_memory_allocator.so
-lib64/libmorpho_panorama.so
-lib64/libmorpho_panorama_gp.so
+lib64/libmorpho_panorama_gp3.so
 lib64/libmp3lame.so
 lib64/liboptizoom.so
 lib64/libscveBlobDescriptor.so
@@ -489,4 +474,3 @@ lib64/vendor.qti.hardware.tui_comm@1.0.so
 lib64/vendor.qti.hardware.vpp@1.1.so
 lib64/drm/libfwdlockengine.so
 lib64/com.qualcomm.qti.wifidisplayhal@1.0.so
-
