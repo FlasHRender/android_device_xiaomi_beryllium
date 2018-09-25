@@ -90,7 +90,7 @@ lib64/vendor.qti.hardware.perf@1.0.so
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 framework/qcrilhook.jar
-framework/qti-telephony-common.jar|3b29d29f3df28a28213b6d62aca3e05359c349aa
+framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
 framework/embmslibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
